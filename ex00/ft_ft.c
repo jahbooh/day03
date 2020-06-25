@@ -6,7 +6,7 @@
 /*   By: jasimela <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/19 17:01:02 by jasimela          #+#    #+#             */
-/*   Updated: 2020/06/24 15:35:24 by jasimela         ###   ########.fr       */
+/*   Updated: 2020/06/25 11:55:18 by jasimela         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,6 @@ void  ft_putchar(char c)
   write(1, &c, 1);
 }
 
-void  ft_putint(int i)
-{
-  printf("%d",i);
-}
 
 void  ft_ft(int *nbr)
 {
@@ -31,12 +27,11 @@ void  ft_ft(int *nbr)
   *nbr = i;
 }
 
-/*int main(void)
+int main(void)
 {
   int c;
   
   c = 0;
   ft_ft(&c);
-  ft_putint(c);
   return (0);
-}\*
+}
